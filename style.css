@@ -1,0 +1,121 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #121213;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box-allUsers {
+    width: 700px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 42px;
+}
+
+.box-allUsers h2 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.box-allUsers button {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 206px;
+    height: 50px;
+    background-color: #1E1E20;
+    color: #FFFFFF;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.box-allUsers button:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.container-box-users {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-users {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 700px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.box-users li {
+    list-style: none;
+    width: 160px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-users li:hover img{
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    transform: scale(1.2);
+}
+
+.box-users figure {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+}
+
+.box-users img {
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+
+.box-users p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #9C9C9C;
+}
+
+.box-users li:hover p {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
